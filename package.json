@@ -1,0 +1,25 @@
+{
+  "name": "jump",
+  "version": "1.0.0",
+  "description": "jump backend task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmanmehmood-12/jump-backend.git"
+  },
+  "author": "usman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmanmehmood-12/jump-backend/issues"
+  },
+  "homepage": "https://github.com/usmanmehmood-12/jump-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1",
+    "node-schedule": "^2.1.0"
+  }
+}
