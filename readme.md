@@ -24,6 +24,7 @@ GET request to check if the app is working
 
 Post request
 - localhost:3000/endpoint
+
 run the above post request to populate mongo
 
 GET request
