@@ -14,7 +14,6 @@ exports.ttlStatusUpdate = () => {
         const testValues = await testM.find()
         testValues.forEach(async (testValue) => {
             let test = await testM.findOneAndUpdate({ _id: testValue.id }, update).catch(e => console.log("error occured: ", e))
-            console.log("testtt: ", test)
         })
     })
 }
